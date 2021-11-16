@@ -7,7 +7,7 @@ Console.WriteLine("Re-run the tool if you have more than 30 repos, because of pa
 
 using (var client = new HttpClient())
 {
-    string username = "robinlarondelle";
+    string username = ""; // <-- your username here
     string token = ""; // <-- your personal access token here
     byte[] byteArray = Encoding.ASCII.GetBytes($"{username}:{token}");
 
